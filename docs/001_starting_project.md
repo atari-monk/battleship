@@ -32,6 +32,7 @@ npm install --save-dev @nrwl/react
 
 1. Server: nest, root (default)
 2. Client: reacr, css, single page (no router), playwright, vite, root (default)
+3. npm i had some version conflits, but chatgpt sugested downgrade and it went away
 
 ## Guide that was run:
 
