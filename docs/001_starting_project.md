@@ -33,6 +33,9 @@ npm install --save-dev @nrwl/react
 1. Server: nest, root (default)
 2. Client: reacr, css, single page (no router), playwright, vite, root (default)
 3. npm i had some version conflits, but chatgpt sugested downgrade and it went away
+4. Warning! there is no need to install packages on apps, in monorepo installing is in root (point of monorepo).
+5. When copying code of server, adjust imports (there is app module in project (nest)).
+6. When building server there were several config errors. Server configs marked red with lines red. Errors and Chatgpt sugested corrections. After configs update build was ok.
 
 ## Guide that was run:
 
