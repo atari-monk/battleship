@@ -36,6 +36,7 @@ npm install --save-dev @nrwl/react
 4. Warning! there is no need to install packages on apps, in monorepo installing is in root (point of monorepo).
 5. When copying code of server, adjust imports (there is app module in project (nest)).
 6. When building server there were several config errors. Server configs marked red with lines red. Errors and Chatgpt sugested corrections. After configs update build was ok.
+7. Client was served no problem, ok.
 
 ## Guide that was run:
 
