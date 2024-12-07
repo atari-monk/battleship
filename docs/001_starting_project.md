@@ -38,6 +38,7 @@ npm install --save-dev @nrwl/react
 6. When building server there were several config errors. Server configs marked red with lines red. Errors and Chatgpt sugested corrections. After configs update build was ok.
 7. Client was served no problem, ok.
 8. Upon test of server, client, this setup worked.
+9. I copied this to nx-web-template. This will serve as seed project.
 
 ## Guide that was run:
 
