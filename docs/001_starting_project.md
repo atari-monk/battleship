@@ -12,7 +12,7 @@ Here’s a step-by-step guide for setting up a web project with **NX**, **TypeSc
 
 ### **Seps i needed to make this work**
 
-1.
+1. node plugin
 
 ```bash
 npm install -g nx@latest
@@ -20,6 +20,12 @@ npm install -g nx@latest
 
 ```bash
 npm install --save-dev @nrwl/node
+```
+
+2. react plugin
+
+```bash
+npm install --save-dev @nrwl/react
 ```
 
 ### **Notes**

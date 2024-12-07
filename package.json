@@ -9,6 +9,7 @@
     "@nestjs/schematics": "^10.0.1",
     "@nestjs/testing": "^10.0.2",
     "@nrwl/node": "^19.8.4",
+    "@nrwl/react": "^19.8.4",
     "@nx/eslint": "19.8.4",
     "@nx/eslint-plugin": "19.8.4",
     "@nx/jest": "19.8.4",
