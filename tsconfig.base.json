@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": ".",
+    "paths": {
+      "@client/*": ["apps/client/src/*"],
+      "@server/*": ["apps/server/src/*"]
+    },
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "composite": true,

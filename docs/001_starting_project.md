@@ -37,6 +37,7 @@ npm install --save-dev @nrwl/react
 5. When copying code of server, adjust imports (there is app module in project (nest)).
 6. When building server there were several config errors. Server configs marked red with lines red. Errors and Chatgpt sugested corrections. After configs update build was ok.
 7. Client was served no problem, ok.
+8. Upon test of server, client, this setup worked.
 
 ## Guide that was run:
 
