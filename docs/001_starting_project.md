@@ -31,6 +31,7 @@ npm install --save-dev @nrwl/react
 ### **Notes**
 
 1. Server: nest, root (default)
+2. Client: reacr, css, single page (no router), playwright, vite, root (default)
 
 ## Guide that was run:
 
