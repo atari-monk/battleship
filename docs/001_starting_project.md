@@ -4,6 +4,8 @@
 
 Here’s a step-by-step guide for setting up a web project with **NX**, **TypeScript**, **Socket.IO**, and separate client and server applications. The project will use the NX monorepo setup, where we’ll have the client-side and server-side applications as separate apps.
 
+## My Notes during coding this:
+
 ### **Do this to make life bareable**
 
 1. Each step should be seperate commit, to discard changes when code is generated with mistake.
@@ -19,6 +21,12 @@ npm install -g nx@latest
 ```bash
 npm install --save-dev @nrwl/node
 ```
+
+### **Notes**
+
+1. Server: nest, root (default)
+
+## Guide that was run:
 
 ### **Step-by-Step Setup Guide**
 
