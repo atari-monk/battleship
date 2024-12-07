@@ -8,6 +8,18 @@ Here’s a step-by-step guide for setting up a web project with **NX**, **TypeSc
 
 1. Each step should be seperate commit, to discard changes when code is generated with mistake.
 
+### **Seps i needed to make this work**
+
+1.
+
+```bash
+npm install -g nx@latest
+```
+
+```bash
+npm install --save-dev @nrwl/node
+```
+
 ### **Step-by-Step Setup Guide**
 
 ---
