@@ -1,6 +1,7 @@
 //import styles from './app.module.css';
 import { useEffect, useState } from 'react';
 import io from 'socket.io-client';
+import Chat from '../component/Chat';
 
 const socket = io('http://localhost:3333');
 
@@ -26,6 +27,7 @@ const App = () => {
     <div>
       <h1>Socket.IO with NX Setup</h1>
       <p>{message}</p>
+      <Chat />
     </div>
   );
 };
