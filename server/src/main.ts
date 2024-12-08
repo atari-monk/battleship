@@ -12,9 +12,9 @@ async function bootstrap() {
   });
 
   io.on('connection', (socket) => {
-    console.log('A client connected');
+    console.log(`A client connected. Socket id = ${socket.id}`);
     socket.on('disconnect', () => {
-      console.log('Client disconnected');
+      console.log(`Client disconnected. Socket id = ${socket.id}`);
     });
   });
 
