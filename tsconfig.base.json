@@ -2,8 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@client/*": ["apps/client/src/*"],
-      "@server/*": ["apps/server/src/*"]
+      "@client/*": ["client/src/*"],
+      "@server/*": ["server/src/*"],
+      "@shared/*": ["shared/src/index.ts"]
     },
     "allowJs": false,
     "allowSyntheticDefaultImports": true,

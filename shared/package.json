@@ -1,0 +1,14 @@
+{
+  "name": "@battleship/shared",
+  "version": "0.0.1",
+  "dependencies": {},
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "typings": "./dist/index.d.ts",
+  "private": true,
+  "nx": {
+    "sourceRoot": "shared/src",
+    "projectType": "library",
+    "name": "shared"
+  }
+}

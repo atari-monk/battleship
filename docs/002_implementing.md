@@ -312,3 +312,23 @@ In tsconfig.json add dom to have dom types.
   }
 }
 ```
+
+## Shared library
+
+1. Generate lib, selected options: vite, eslint, vitest
+
+```bash
+nx generate @nrwl/js:lib shared
+```
+
+2. root package.json paths updated
+
+```json
+"paths": {
+      "@client/*": ["client/src/*"],
+      "@server/*": ["server/src/*"],
+      "@shared/*": ["shared/src/index.ts"]
+    },
+```
+
+## a
